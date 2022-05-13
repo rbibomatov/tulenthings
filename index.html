@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Страница Тюленчика</title>
+    <script src="TulenSpeech.js"></script>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>
+          <img src="avatar.jpg" width="350" alt="Тут аватарка тюленчика" />
+        </td>
+        <td>
+          <h1>Мирошкина Дианочка</h1>
+          <p>
+            Тюлень - это
+            <em>прозвище</em>
+            <strong>Дианочки</strong>
+          </p>
+          <p>Она сейчас работает</p>
+        </td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <h2>Сгенерировать фразу Тюленчика</h2>
+    <button onclick="generateTulenSpeech()">Тык!</button>
+    <hr />
+
+    <h2>Социальные сети Тюленчика</h2>
+    <ul type="square">
+      <li>
+        <a href="https://vk.com/dianochka1598" target="_blank">ВК</a>
+      </li>
+      <li>
+        <a href=" https://t.me/dvmiroshkina" target="_blank">Телега</a>
+      </li>
+    </ul>
+
+    <hr />
+
+    <h2>Хобби Тюленчика</h2>
+    <ol>
+      <li>Гулять</li>
+      <li>Карусельки</li>
+      <li>Кушать</li>
+    </ol>
+
+    <hr />
+
+    <h2>Достижения Тюленчика</h2>
+    <table>
+      <tr>
+        <th>Достижение</th>
+        <th>Год</th>
+      </tr>
+      <tr>
+        <td>Окончила ВУЗ</td>
+        <td>2019</td>
+      </tr>
+      <tr>
+        <td>Устроилась в Балтику</td>
+        <td>2021</td>
+      </tr>
+      <tr>
+        <td>Выплатила долги</td>
+        <td>2021</td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <h2>Лучшие блюда Тюленчика</h2>
+    <a href="food.html" target="_blank" rel="noopener noreferrer"
+      >Список шедевров</a
+    >
+
+    <hr />
+
+    <h2>Связаться с Тюленчиком</h2>
+    <form action="/">
+      <label for="name">Ваше имя:</label>
+      <input type="text" id="name" placeholder="Тут имя..." />
+
+      <br />
+      <label for="email">Ваш email:</label>
+      <input type="email" id="email" placeholder="Тут email..." />
+
+      <br />
+      <label for="text">Ваши комплименты</label>
+      <textarea id="text" cols="15" rows="2"></textarea>
+
+      <br />
+      <input type="submit" value="Связаться!" />
+    </form>
+
+    <hr />
+  </body>
+</html>
